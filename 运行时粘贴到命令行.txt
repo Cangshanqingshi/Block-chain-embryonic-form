@@ -1,0 +1,10 @@
+go run wallet.go base58.go block.go blockchain.go pow.go CLI.go transaction.go main.go
+
+打印链：printchain
+得到该地址的余额：getbalance -address ADDRESS
+创建一条链并且该地址会得到狗头金：createblockchain -address ADDRESS
+地址from发送amount的币给地址to：send -from FROM -to TO -amount AMOUNT 
+创建一个钱包，里面放着一对秘钥：createwallet
+列出所有地址：listaddresses
+
+//增加区块：addblock -data "..."
